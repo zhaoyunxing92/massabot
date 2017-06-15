@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <el-menu class="el-menu" mode="horizontal" @select="handleSelect">
-      <img class="logo" src="../../assets/logo/logo.png" title="logo" @click="$router.push('/')"/>
+      <img class="logo" src="../../assets/logo/logo.png" alt="logo" @click="$router.push('/')"/>
       <div v-if="!item.hidden&&item.leaf" v-for="(item,i) in $router.options.routes">
         <el-menu-item v-loading.fullscreen.lock="fullscreenLoading" index=i :class="$route.path==item.path?'active':''"
                       @click="$router.push(item.path)">{{item.name}}
@@ -42,7 +42,7 @@
   })
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
   .active {
     border-bottom: solid 0.3rem #20a0ff;
     color: #20a0ff !important;

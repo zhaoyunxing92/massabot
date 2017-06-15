@@ -21,7 +21,7 @@
   })
 </script>
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
   .slideshow > div > img {
     width: 100%;
     /*max-height: 360px;*/
