@@ -1,8 +1,8 @@
-# bb-project
+# massabot
 
 > 是傻逼波波强迫我写的
 
-## Build Setup
+## 构建步骤
 
 ``` bash
 # install dependencies
