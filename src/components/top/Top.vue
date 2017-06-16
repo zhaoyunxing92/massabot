@@ -59,7 +59,7 @@
     margin: 0px 50px 0px 10%;
     float: left;
     height: 60px;
-    left: 100px;
+    left: 10px;
   }
 
   /*手机css*/
