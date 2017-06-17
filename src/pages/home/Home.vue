@@ -11,7 +11,7 @@
             <p style="font-family: 微软雅黑;margin-top: 20px">科技改变生活</p>
         </span>
 
-        <div class="trend" style="margin-left: 25%;">
+        <div class="trend" style="margin-left: 23%;">
           <div class="signal">
             <img style="margin-top: 22%;width: 42px" src="../../assets/img/￥.jpg"/>
           </div>
@@ -46,8 +46,6 @@
 
       </div>
 
-      <div class="third-selection">
-      </div>
 
       <div class="img">
         <img class="item" src="../../assets/img/img_1.jpg" alt="图片">
@@ -89,7 +87,7 @@
 <style scoped>
   .content{
     width: 100%;
-    height: 500px;
+    height: 1000px;
   }
   .content > .img > img[class='item'] {
     width: 20%;
