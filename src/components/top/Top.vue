@@ -56,9 +56,9 @@
   }
 
   div[class='menu'] > ul > .logo {
-    margin: 0px 50px 0px 10%;
+    margin-left: 20%;
     float: left;
-    height: 60px;
+    height: 80px;
     left: 10px;
   }
 
@@ -76,7 +76,8 @@
   /**平板*/
   @media only screen and (min-width: 321px) and (max-width: 1024px) {
     div[class='menu'] > ul > .logo {
-      margin: 0px 30px 0px 5%;
+      margin: 0px 30px 0px 0px;
+      padding-left: 300px;
       /*width: 331px;*/
       /*display: inline;*/
     }

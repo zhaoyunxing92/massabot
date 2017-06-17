@@ -11,7 +11,7 @@
             <p style="font-family: 微软雅黑;margin-top: 20px">科技改变生活</p>
         </span>
 
-        <div class="trend" style="margin-left: 15%;">
+        <div class="trend" style="margin-left: 25%;">
           <div class="signal">
             <img style="margin-top: 22%;width: 42px" src="../../assets/img/￥.jpg"/>
           </div>
@@ -35,7 +35,7 @@
 
         <div class="trend" >
           <div class="signal">
-            <img style="margin-top: 22%;width: 42px" src="../../assets/img/finiger.jpg"/>
+            <img style="margin-top: 22%;width: 42px" src="../../assets/img/good.jpg"/>
           </div>
           <p class="p-font">便捷享受</p>
           <span class="normal-span">
@@ -44,6 +44,9 @@
           </span>
         </div>
 
+      </div>
+
+      <div class="third-selection">
       </div>
 
       <div class="img">
@@ -86,6 +89,7 @@
 <style scoped>
   .content{
     width: 100%;
+    height: 500px;
   }
   .content > .img > img[class='item'] {
     width: 20%;
@@ -97,14 +101,14 @@
   .middle{
     width: 100%;
     height: 600px;
-    margin-bottom: 50px;
     alignment: center;
     background-color: #f4f6f7;
+    margin: 0 auto;
   }
 
   .trend {
     float: left;
-    width: 20%;
+    width: 15%;
     height: 300px;
     margin-left: 5%;
     margin-top: 20px;
@@ -132,6 +136,7 @@
     font-size: 14px;
     font-family: 微软雅黑;
   }
+
 
 
 </style>
