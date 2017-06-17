@@ -3,28 +3,47 @@
     <Slideshow :imgs="imgs"></Slideshow>
     <div class="content">
 
-      <h1 hidden>图片区域</h1>
-
       <div class="middle">
-        <span style="color:#444444;">
-          <span style="font-size: 36px;">
-            <p style="font-family: 微软雅黑;">智 能 服 务 机 器 人 趋 势</p>
-          </span>
+        <span style="color:#444444;font-size: 36px;">
+            <p style="font-family: 微软雅黑; padding-top: 80px">智 能 服 务 机 器 人 趋 势</p>
         </span>
-        <span style="color:#808080;">
-          <span style="font-size: 16px;">
-            <p style="font-family: 微软雅黑;margin-top: 10px">科技改变生活</p>
-          </span>
+        <span style="color:#808080;font-size: 16px;">
+            <p style="font-family: 微软雅黑;margin-top: 20px">科技改变生活</p>
         </span>
-        <div class="trend" style="margin-left: 15%">
 
+        <div class="trend" style="margin-left: 15%;">
+          <div class="signal">
+            <img style="margin-top: 22%;width: 42px" src="../../assets/img/￥.jpg"/>
+          </div>
+          <p class="p-font">人工成本</p>
+          <span class="normal-span" >
+            <p style="padding-top: 20px">以机器代替越来</p>
+            <p style="padding-top: 5px">越高的人工服务</p>
+          </span>
         </div>
+
         <div class="trend" >
-
+          <div class="signal">
+            <img style="margin-top: 22%;width: 50px" src="../../assets/img/gxh.jpg"/>
+          </div>
+          <p class="p-font">定制服务</p>
+          <span class="normal-span">
+            <p style="padding-top: 20px">为每位用户定制</p>
+            <p style="padding-top: 5px">属于自己的服务</p>
+          </span>
         </div>
+
         <div class="trend" >
-
+          <div class="signal">
+            <img style="margin-top: 22%;width: 42px" src="../../assets/img/finiger.jpg"/>
+          </div>
+          <p class="p-font">便捷享受</p>
+          <span class="normal-span">
+            <p style="padding-top: 20px">近乎随时、随地</p>
+            <p style="padding-top: 5px">地享受定制服务</p>
+          </span>
         </div>
+
       </div>
 
       <div class="img">
@@ -77,19 +96,41 @@
 
   .middle{
     width: 100%;
-    height: 500px;
-    margin-top: 50px;
+    height: 600px;
     margin-bottom: 50px;
     alignment: center;
+    background-color: #f4f6f7;
   }
 
   .trend {
     float: left;
     width: 20%;
-    height: 250px;
+    height: 300px;
     margin-left: 5%;
     margin-top: 20px;
-    border: 1px solid #8f8f8f
+    border: 1px solid #9f9f9f;
+    background-color: white;
+  }
+
+  .signal{
+    width: 84px;
+    height: 84px;
+    border: 2px solid #499ff5 ;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    z-index: 1;
+  }
+
+  .p-font{
+    font-family: 微软雅黑;
+    padding-top: 10px;
+    font-size: 22px;
+    color: #808080;
+  }
+  .normal-span{
+    font-size: 14px;
+    font-family: 微软雅黑;
   }
 
 
