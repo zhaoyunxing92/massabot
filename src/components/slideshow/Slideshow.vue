@@ -26,4 +26,8 @@
     width: 100%;
     /*max-height: 360px;*/
   }
+
+  .slideshow{
+    height: 708px;
+  }
 </style>

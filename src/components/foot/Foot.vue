@@ -2,7 +2,7 @@
   <div class="foot" ref="foot">
     <div  class="focus">
       <p>关注我们</p>
-      <img  src="../../assets/img/aicreate.png" width="100px" height="100px"/>
+      <img src="../../assets/img/home/aicreate.png" width="100px" height="100px"/>
     </div>
 
     <div class="contact">
@@ -10,7 +10,10 @@
       <p>电话&nbsp;&nbsp;:&nbsp;&nbsp;400-800-6000</p><br/><br/>
       <p>网址&nbsp;&nbsp;:&nbsp;&nbsp;www.aicreate.cc</p><br/><br/>
       <p>邮箱&nbsp;&nbsp;:&nbsp;&nbsp;zhaolonghai1988@gmail.com</p><br/><br/>
-      <p>地址&nbsp;&nbsp;:&nbsp;&nbsp;广东省 东莞市 松山湖管委会	和堂路松山湖国际机器人产业基地17栋A</p>
+      <p>地址&nbsp;&nbsp;:&nbsp;&nbsp;</p>
+      <span>
+        <p>广东省 东莞市 松山湖管委会	和堂路松山湖国际机器人产业基地17栋A</p>
+      </span>
     </div>
 
     <div class="news">
@@ -72,6 +75,11 @@ div[class='foot'] > div[class='focus'] > img{
   margin-top: 50px;
   text-align: left;
   font-size: 13px;
+}
+
+div[class='contact'] > span{
+  float: left;
+  width: 80%;
 }
 
 div[class='foot'] > div[class='contact'] > p{

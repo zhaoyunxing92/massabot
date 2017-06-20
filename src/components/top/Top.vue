@@ -4,7 +4,7 @@
       <img class="logo" src="../../assets/logo/logo.png" alt="logo" @click="$router.push('/')"/>
       <div v-if="!item.hidden&&item.leaf" v-for="(item,i) in $router.options.routes">
         <el-menu-item v-loading.fullscreen.lock="fullscreenLoading" index=i :class="$route.path==item.path?'active':''"
-                      @click="$router.push(item.path)">{{item.name}}
+                      @click="$router.push(item.path)"  class="title">{{item.name}}
         </el-menu-item>
       </div>
       <div v-if="!item.hidden&&!item.leaf&&item.children&&item.children.length>0"
@@ -46,8 +46,13 @@
   .active {
     border-bottom: solid 0.3rem #20a0ff;
     color: #20a0ff !important;
-    font-size: 16px;
+    font-size: 20px;
     box-sizing: border-box;
+  }
+
+  .title{
+    padding-top: 10px;
+    font-size: 20px;
   }
 
   /**去除饿了么激活css*/
@@ -57,6 +62,7 @@
 
   div[class='menu'] > ul > .logo {
     margin-left: 20%;
+    margin-right: 5%;
     float: left;
     height: 80px;
     left: 10px;
