@@ -85,6 +85,43 @@
         <!--<img style="width: 100%;height: 400px;z-index: -1" src="../../assets/img/finiger.jpg"/>-->
       </div>
 
+      <div class="cooperation">
+        <div class="coo-title">
+          <span class="coo-title1">
+            <p>合作案例</p>
+          </span>
+          <span class="coo-title2">
+            <p style="padding-top: 20px">丰富的机器人设计经验，智能生活的最优选择</p>
+          </span>
+        </div>
+
+        <div class="coo-logo-div">
+          <div class="coo-logo" style="margin-left: 5%">
+              <a href="http://www.xbotpark.com/" target="_blank">
+                <div class="coo-logo-img">
+                  <img src="../../assets/img/home/xbotpark.png"/>
+                </div>
+              </a>
+             <span>
+               <p>松山湖机器人产业基地</p>
+             </span>
+          </div>
+          <div class="coo-logo">
+            <a href="http://www.gd2h.com/" target="_blank">
+              <div class="coo-logo-img">
+                <img src="../../assets/img/home/sec-hos.png" style="margin-top: 0px"/>
+              </div>
+            </a>
+            <span>
+               <p>广东省第二人民医院</p>
+             </span>
+          </div>
+        </div>
+
+
+
+      </div>
+
 
 
     </div>
@@ -112,7 +149,7 @@
 <style scoped>
   .content{
     width: 100%;
-    height: 2500px;
+    height: 2310px;
   }
   .content > .img > img[class='item'] {
     width: 20%;
@@ -195,6 +232,67 @@
   div[class='section11'] >span > p{
     margin-top: 15px;
   }
+
+  .cooperation{
+    width: 1200px;
+    height: 419px;
+    margin: 0 auto;
+  }
+
+  .coo-title{
+    width: inherit;
+    height: 32px;
+    margin-top: 80px;
+  }
+
+  div[class='coo-title'] > .coo-title1{
+    font-size: 36px;
+    color: rgb(51, 51, 51);
+    font-family: 微软雅黑;
+  }
+
+  div[class='coo-title'] > .coo-title2{
+    color:#808080;
+    font-size: 16px;
+    font-family: 微软雅黑;
+  }
+
+  .coo-logo-div{
+    width: 1190px;
+    height: 230px;
+    margin-top: 100px;
+  }
+
+  .coo-logo{
+    width: 185px;
+    height: 157px;
+    float: left;
+    margin-left: 7px;
+  }
+
+
+  .coo-logo-img{
+    width: 134px;
+    height: 113px;
+    border:1px solid #cccccc;
+    margin: 0 auto;
+  }
+
+  div[class='coo-logo-img'] > img{
+    width: 134px;
+    margin-top: 13px;
+  }
+
+  div[class='coo-logo'] > span{
+    color:#333333;
+    font-size: 16px;
+    font-family: 微软雅黑;
+  }
+
+  div[class='coo-logo'] > span >p{
+    padding-top: 15px;
+  }
+
 
 
 </style>
