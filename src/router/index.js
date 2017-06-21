@@ -38,14 +38,15 @@ export default new Router ( {
     {
       path : '/price' ,
       name : '价格' ,
-      hidden : true ,
+      hidden : false ,
       leaf : true ,
       component : Price
     } ,
     {
       path : '/download' ,
-      name : '下载' ,
-      hidden : true ,
+      /*name : '下载' ,*/
+      name : '简介' ,
+      hidden : false ,
       leaf : true ,
       component : Download
     } , {

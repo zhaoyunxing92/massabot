@@ -19,13 +19,13 @@
         <div class="section11">
           <img src="../../assets/img/home/selection03.jpg"/>
           <span>
-            <p>物联网</p>
+            <p>大数据</p>
           </span>
         </div>
-        <div class="section11">
-          <img src="../../assets/img/home/selection04.jpg"/>
+        <div class="section11" style="height: 90px; margin-top: 33px">
+          <img src="../../assets/img/home/selection04.png" style="width: 90px;"/>
           <span>
-            <p>响应式布局</p>
+            <p style="margin-top: 6px">物联网</p>
           </span>
         </div>
       </div>
@@ -70,9 +70,41 @@
             <p style="padding-top: 5px">地享受定制服务</p>
           </span>
         </div>
-      </div>
 
-      <div class="midddle2">
+        <div class="trend" style="float: left;clear: left;margin-left: 26%;">
+          <div class="signal">
+            <img style="width: 55px;margin-top: 12px" src="../../assets/img/home/on-off.png"/>
+          </div>
+          <p class="p-font">灵活控制</p>
+          <span class="normal-span">
+            <p style="padding-top: 20px">可使用APP或浏览器</p>
+            <p style="padding-top: 5px">轻松地控制设备运行</p>
+          </span>
+        </div>
+
+        <div class="trend">
+          <div class="signal">
+            <img style="width: 65px;margin-top: 7px" src="../../assets/img/home/internet.png"/>
+          </div>
+          <p class="p-font">数据联网</p>
+          <span class="normal-span">
+            <p style="padding-top: 20px">机器可以很方便地</p>
+            <p style="padding-top: 5px">接入互联网，所有</p>
+            <p style="padding-top: 5px">数据均可存储在云端</p>
+          </span>
+        </div>
+
+        <div class="trend">
+          <div class="signal">
+            <img style="width: 55px;margin-top: 12px" src="../../assets/img/home/polygon.png"/>
+          </div>
+          <p class="p-font">多变用途</p>
+          <span class="normal-span">
+            <p style="padding-top: 20px">一台机器搭配不同</p>
+            <p style="padding-top: 5px">执行末端可实现</p>
+            <p style="padding-top: 5px">多种用途</p>
+          </span>
+        </div>
 
       </div>
 
@@ -88,34 +120,81 @@
       <div class="cooperation">
         <div class="coo-title">
           <span class="coo-title1">
-            <p>合作案例</p>
+            <p>合作企业</p>
           </span>
           <span class="coo-title2">
-            <p style="padding-top: 20px">丰富的机器人设计经验，智能生活的最优选择</p>
+            <p style="padding-top: 20px">丰富的机器人设计，应用经验</p>
           </span>
         </div>
 
         <div class="coo-logo-div">
-          <div class="coo-logo" style="margin-left: 5%">
+
+          <div class="coo-logo" style="margin-left: 2%">
               <a href="http://www.xbotpark.com/" target="_blank">
                 <div class="coo-logo-img">
-                  <img src="../../assets/img/home/xbotpark.png"/>
+                  <img src="../../assets/img/home/xbotpark.png" style="margin-top: 15px"/>
                 </div>
               </a>
              <span>
                <p>松山湖机器人产业基地</p>
              </span>
           </div>
+
           <div class="coo-logo">
             <a href="http://www.gd2h.com/" target="_blank">
               <div class="coo-logo-img">
-                <img src="../../assets/img/home/sec-hos.png" style="margin-top: 0px"/>
+                <img src="../../assets/img/home/sec-hos.png"/>
               </div>
             </a>
             <span>
                <p>广东省第二人民医院</p>
              </span>
           </div>
+
+          <div class="coo-logo">
+            <a href="http://www.szxys.cn/" target="_blank">
+              <div class="coo-logo-img">
+                <img src="../../assets/img/home/szxys.png" style="margin-top: 30px"/>
+              </div>
+            </a>
+            <span>
+               <p>深圳新元素</p>
+             </span>
+          </div>
+
+          <div class="coo-logo">
+            <a href="http://www.qkmtech.com/" target="_blank">
+              <div class="coo-logo-img">
+                <img src="../../assets/img/home/QMK.png" style="height: 113px;width: 113px"/>
+              </div>
+            </a>
+            <span>
+               <p>李群自动化</p>
+             </span>
+          </div>
+
+          <div class="coo-logo">
+            <a href="http://www.dgfzt.com/" target="_blank">
+              <div class="coo-logo-img">
+                <img src="../../assets/img/home/fzt.jpg" style="height: 110px;width: 110px"/>
+              </div>
+            </a>
+            <span>
+               <p>东莞扶正堂</p>
+             </span>
+          </div>
+
+          <div class="coo-logo">
+            <a href="#">
+              <div class="coo-logo-img">
+                <img src="../../assets/img/home/hd-hos.png" style="height: 110px"/>
+              </div>
+            </a>
+            <span>
+               <p>东莞鸿德中医馆</p>
+             </span>
+          </div>
+
         </div>
 
 
@@ -149,7 +228,7 @@
 <style scoped>
   .content{
     width: 100%;
-    height: 2310px;
+    height: 2000px;
   }
   .content > .img > img[class='item'] {
     width: 20%;
@@ -160,7 +239,7 @@
 
   .middle{
     width: 100%;
-    height: 600px;
+    height: 900px;
     alignment: center;
     background-color: #f4f6f7;
     margin: 0 auto;
@@ -201,11 +280,6 @@
     width: 100%;
     height: 400px;
     background-image: url("../../assets/img/home/finiger.jpg");
-  }
-
-  .midddle2{
-    width: 100%;
-    height: 600px;
   }
 
   .section1{
@@ -279,8 +353,7 @@
   }
 
   div[class='coo-logo-img'] > img{
-    width: 134px;
-    margin-top: 13px;
+    width: 132px;
   }
 
   div[class='coo-logo'] > span{
