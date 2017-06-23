@@ -38,7 +38,7 @@ export default new Router ( {
     {
       path : '/price' ,
       name : '价格' ,
-      hidden : false ,
+      hidden : true ,
       leaf : true ,
       component : Price
     } ,

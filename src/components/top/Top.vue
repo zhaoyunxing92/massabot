@@ -46,13 +46,13 @@
   .active {
     border-bottom: solid 0.3rem #20a0ff;
     color: #20a0ff !important;
-    font-size: 20px;
+    font-size: 18px;
     box-sizing: border-box;
   }
 
   .title{
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   /**去除饿了么激活css*/
