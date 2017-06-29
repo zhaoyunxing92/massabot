@@ -19,7 +19,7 @@
         <div class="v-div">
           <!--poster 封面-->
           <video controls="controls" > <!-- poster="https://zhaoyunxing92.github.io/images/avatar.png"-->
-            <source type="video/mp4" src="massabot/src/assets/video/massabot.mp4">
+            <source type="video/mp4" src="https://zhaoyunxing92.github.io/massabot/src/assets/video/massabot.mp4">
             <p>您的浏览器不支持 video 标签。</p>
           </video>
         </div>
@@ -29,7 +29,7 @@
         <div class="v-div">
           <!--poster 封面-->
           <video controls="controls" > <!-- poster="https://zhaoyunxing92.github.io/images/avatar.png"-->
-            <source type="video/mp4" src="https://zhaoyunxing92.github.io/massabot/src/assets/video/massabot.mp4">
+            <source type="video/mp4" src="https://zhaoyunxing92.github.io/massabot/src/assets/video/massage_back.mp4">
             <p>您的浏览器不支持 video 标签。</p>
           </video>
         </div>
